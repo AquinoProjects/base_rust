@@ -30,5 +30,6 @@ fn main() {
     //Chama o io, o objeto do tipo stdin e a funcao read_line para fazer a leitura de linha no terminal
     io::stdin().read_line(&mut s).expect("Error reading console!"); // retorna um Result - contendo um valor ou um erro
     println!("Você digitou {s}");
+    println!("Quantidade de letras {}", s.len());
 
 }
